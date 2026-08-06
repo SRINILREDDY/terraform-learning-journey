@@ -1,0 +1,12 @@
+dev_instance_type = "t3.micro"
+test_instance_type = "t3.micro"
+prod_instance_type = "t3.micro"
+
+devami_id ="ami-07d0529220f62b255"
+testami_id ="ami-0304448c82662e9ac"
+prodami_id ="ami-0199ac7c9fbf9ed83"
+
+
+dev_volume_size = 30
+test_volume_size=30
+prod_volume_size = 30
