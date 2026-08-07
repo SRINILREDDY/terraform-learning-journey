@@ -1,9 +1,35 @@
-# Terraform Learning Journey
+# Day 2 - Terraform EC2 with Variables and Outputs
 
-Day-by-day Terraform practice on AWS.
+## Objective
+Learn how to create reusable Terraform code using variables and outputs.
 
-| Day | Topic |
-|-----|-------|
-| Day 1 | Providers, EC2, Security Groups |
-| Day 2 | Variables, Outputs, tfvars |
-| Day 3 | VPC, Subnets (coming) |
+## AWS Services
+- EC2
+
+## What I Built
+- Created 3 EC2 instances:
+  - dev
+  - test
+  - prod
+- Used variable.tf to define input variables.
+- Used terraform.tfvars to provide variable values.
+- Used output.tf to display:
+  - Instance IDs
+  - Public IP addresses
+- Added tags to identify each instance.
+
+## Files
+- provider.tf
+- main.tf
+- variable.tf
+- terraform.tfvars.example
+- output.tf
+
+## Terraform Commands
+
+```bash
+terraform init
+terraform validate
+terraform plan
+terraform apply
+terraform destroy
