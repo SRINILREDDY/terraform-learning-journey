@@ -1,21 +1,23 @@
-# Terraform VPC Module – Day 4
+# Terraform VPC Module
 
-This project demonstrates how to create an AWS VPC using Terraform modules.
+Created an AWS VPC using Terraform modules.
 
-## Architecture
+## Resources
 
-The project uses a root module and a child VPC module:
+- VPC
+- Public Subnet
+- Private Subnet
+- Internet Gateway
+- Route Tables
+- NAT Gateway
+
+## Structure
 
 ```text
-Root Module
-    |
-    └── modules/vpc
-          |
-          ├── VPC
-          ├── Public Subnet
-          ├── Private Subnet
-          ├── Internet Gateway
-          ├── Public Route Table
-          ├── Private Route Table
-          ├── NAT Gateway
-          └── Route Table Associations
+main.tf
+provider.tf
+modules/
+└── vpc/
+    ├── main.tf
+    ├── variable.tf
+    └── output.tf
