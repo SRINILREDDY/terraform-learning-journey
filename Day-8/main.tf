@@ -13,7 +13,8 @@ resource "aws_db_instance" "database"{
 
     db_name = "appdb"
     username = "srinil"
-    password = "295812345"
+
+   manage_master_user_passowrd=true
 
 
     publicly_accessible = false
