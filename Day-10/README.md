@@ -1,10 +1,8 @@
-## Day 10 — Terraform Dynamic Blocks
-
-````markdown
 # Day 10 — Terraform Dynamic Blocks
 
 ## What I Learned
 
+Learned how to use Terraform dynamic blocks to generate multiple nested blocks dynamically from a variable.
 Learned how to use Terraform dynamic blocks to generate multiple nested blocks dynamically from a variable.
 
 ## Topics Covered
